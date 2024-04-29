@@ -1,7 +1,9 @@
+import NavBar from "../components/NavBar";
+
 function LandingPage() {
     return ( 
         <>
-            Hola Landing
+            <NavBar/>
         </>
      );
 }
