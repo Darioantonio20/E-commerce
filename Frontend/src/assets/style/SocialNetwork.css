@@ -1,0 +1,74 @@
+.cardsSocialNetwork {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375rem;
+    justify-content: center;
+    align-items: center;
+}
+  
+.cardsSocialNetwork .violet {
+    background-color: #724FAA;
+    animation: colorFadeViolet 20s ease-in-out infinite;
+}
+
+.cardsSocialNetwork .blue {
+    background-color: #007CDE;
+    animation: colorFadeBlue 20s ease-in-out infinite;
+}
+
+.cardsSocialNetwork .green {
+    background-color: #00AF00;
+    animation: colorFadeGreen 20s ease-in-out infinite;
+}
+
+  .cardsSocialNetwork .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 10.25rem;
+    width: 21.625rem;
+    border-radius: 0.625rem;
+    color: white;
+    cursor: pointer;
+    transition: 400ms transform, 400ms box-shadow, 400ms background-color;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.2);
+  }
+  
+  .cardsSocialNetwork .cards:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #333;
+  }
+  
+  .cardsSocialNetwork:hover > .cards:not(:hover) {
+    filter: blur(0.625rem);
+    transform: scale(0.9);
+    box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.2);
+  }
+
+@media (min-width: 768px) {
+    .cardsSocialNetwork {
+        flex-direction: row;
+    }
+}
+
+@keyframes colorFadeViolet {
+    0% { background-color: #9785b1; }
+    50% { background-color: #6d47ab; }
+    100% { background-color: #9785b1; }
+}
+
+@keyframes colorFadeBlue {
+    0% { background-color: #82bce9; }
+    50% { background-color: #016dc0; }
+    100% { background-color: #82bce9; }
+}
+
+@keyframes colorFadeGreen {
+    0% { background-color: #7dad7d; }
+    50% { background-color: #00AF00; }
+    100% { background-color: #7dad7d; }
+}

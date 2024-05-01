@@ -1,0 +1,66 @@
+.gradientDivGreen {
+    width: 100%;
+    height: 15rem;
+    background: linear-gradient(to top, #76BCC4, #FFFFFF);
+}
+.bgGreen{
+    width: 100%;
+    height: 80vh;
+    background-color: #76BCC4;
+}
+.gradientDivRed {
+    width: 100%;
+    height: 15rem;
+    background: linear-gradient(to top, #9C4C5C, #76BCC4);
+}
+.bgRed{
+    width: 100%;
+    height: 80vh;
+    background-color: #9D4C5C;
+}
+.gradientDivOrange{
+    width: 100%;
+    height: 15rem;
+    background: linear-gradient(to top, #E0813E, #9D4C5C);
+}
+.bgOrange{
+    width: 100%;
+    height: 80vh;
+    background-color: #E0813E;
+}
+.gradientDivWhite{
+    width: 100%;
+    height: 15rem;
+    background: linear-gradient(to top, #FFFFFF, #E0813E);
+}
+
+.tittleInGradiente{
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 4em; 
+}
+
+.subTittleGrandiente{
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 2em; 
+}
+
+@media (max-width: 600px) {
+    .tittleInGradiente {
+        font-size: 1.7em;
+    }
+    .subTittleGrandiente{
+        font-size: 1.3em; 
+    }
+}
+
+
+@media (max-width: 400px) {
+    .tittleInGradiente {
+        font-size: 1.6em;
+    }
+    .subTittleGrandiente{
+        font-size: 1.1em; 
+    }
+}

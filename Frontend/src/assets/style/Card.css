@@ -1,0 +1,97 @@
+.box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .cardcita{
+    position: relative;
+    width: 18.75rem;
+    height: 21.875rem;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 0.25rem;
+    box-shadow:0 0.125rem 0.625rem rgba(0,0,0,.2);
+    
+  }
+  
+  .cardcita:before,
+  .cardcita:after
+  {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 21.875rem;
+    border-radius: 0.25rem;
+    background: #fff;
+    transition: 0.5s;
+    z-index:-1;
+  }
+  .cardcita:hover:before{
+  transform: rotate(20deg);
+  box-shadow: 0 0.125rem 1.25rem rgba(0,0,0,.2);
+  }
+  .cardcita:hover:after{
+  transform: rotate(10deg);
+  box-shadow: 0 0.125rem 1.25rem rgba(0,0,0,.2);
+  }
+  .cardcita .imgBx{
+  position: absolute;
+  top: 0.625rem;
+  left: 0.625rem;
+  bottom: 0.625rem;
+  right: 0.625rem;
+  background: #222;
+  transition: 0.5s;
+  z-index: 1;
+  }
+  
+  .cardcita:hover .imgBx
+  {
+    bottom: 5rem;
+  }
+
+  .cardcita .imgBx img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+
+  .cardcita .details{
+      position: absolute;
+      left: 0.625rem;
+      right: 0.625rem;
+      bottom: 0.625rem;
+      height: 3.75rem;
+      text-align: center;
+  }
+
+  .cardcita .details h2{
+   margin: 0;
+   padding: 0;
+   font-weight: 600;
+   font-size: 1rem;
+   color: #777;
+   text-transform: uppercase;
+  } 
+
+  .cardcita .details h2 span{
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #f38695;
+  display: block;
+  margin-top: 0.3125rem;
+  }
+
+  .zoomOnHover {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .zoomOnHover:hover {
+    transform: scale(1.2);
+  }
