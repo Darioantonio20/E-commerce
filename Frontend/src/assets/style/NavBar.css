@@ -4,6 +4,7 @@ nav {
     justify-content: space-evenly;
     position: relative;
     z-index: 2;
+    background-color: transparent; 
     margin: 0px auto;
     perspective: 2000px;
     flex-wrap: wrap;

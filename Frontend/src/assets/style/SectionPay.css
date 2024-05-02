@@ -77,3 +77,48 @@
         font-size: 1.1em; 
     }
 }
+/* Background Green (billete) */
+
+.parallaxBgGreen {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/bgGreen.avif");
+}
+
+@media (max-width: 600px) {
+    .parallaxBgGreen {
+        background-position: center;
+        height: 50vh;
+    }
+}
+
+.logoBgGreen {
+    height: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../icons/iconLogoBgGreenSection.avif");
+    animation: scrollAnimation 3s infinite; 
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-10px) rotate(20deg); 
+    }
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+}
+@media (max-width: 900px) { 
+    .logoBgGreen {
+        width: 50%; 
+        height: 30%;
+        margin-top: 20%;
+    }
+}/* End */

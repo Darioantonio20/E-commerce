@@ -1,10 +1,10 @@
 .parallax {
-    background-image: url("../img/bgBalls.avif");
-    height: 50vh;
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url("../img/bgBalls.avif");
 }
 
 @media (max-width: 600px) {
@@ -13,9 +13,27 @@
     }
 }
 .logo {
-    background-image: url("../icons/iconLogoSection.avif");
     height: 30%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url("../icons/iconLogoSection.avif");
+    animation: scrollAnimation 3s infinite; 
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-10px) rotate(20deg); 
+    }
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+}
+@media (max-width: 568px) { 
+    .logo {
+        width: 70%; 
+    }
 }
