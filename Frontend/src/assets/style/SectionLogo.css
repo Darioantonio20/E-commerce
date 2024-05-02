@@ -1,0 +1,21 @@
+.parallax {
+    background-image: url("../img/bgBalls.avif");
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 600px) {
+    .parallax {
+        background-position: top;
+    }
+}
+.logo {
+    background-image: url("../icons/iconLogoSection.avif");
+    height: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
