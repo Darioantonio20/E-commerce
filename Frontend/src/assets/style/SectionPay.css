@@ -53,8 +53,21 @@
     .subTittleGrandiente{
         font-size: 1.3em; 
     }
+    .gradientDivGreen, 
+    .gradientDivRed, 
+    .gradientDivOrange, 
+    .gradientDivWhite{
+        height: 9rem;
+        width: auto;
+    }
+    .bgGreen,
+    .bgRed,
+    .bgOrange,
+    .bgWhite{
+        height: 45vh;
+        width: auto;
+    }
 }
-
 
 @media (max-width: 400px) {
     .tittleInGradiente {

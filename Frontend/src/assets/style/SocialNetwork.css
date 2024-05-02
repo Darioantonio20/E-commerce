@@ -49,12 +49,6 @@
     box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.2);
   }
 
-@media (min-width: 768px) {
-    .cardsSocialNetwork {
-        flex-direction: row;
-    }
-}
-
 @keyframes colorFadeViolet {
     0% { background-color: #9785b1; }
     50% { background-color: #6d47ab; }
@@ -71,4 +65,14 @@
     0% { background-color: #7dad7d; }
     50% { background-color: #00AF00; }
     100% { background-color: #7dad7d; }
+}
+@media (max-width: 440px) {
+    .cardsSocialNetwork {
+        flex-direction: column;
+    }
+
+    .cardsSocialNetwork .cards {
+        width: 100%;
+        height: auto;
+    }
 }

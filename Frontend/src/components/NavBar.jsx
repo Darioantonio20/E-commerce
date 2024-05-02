@@ -4,22 +4,21 @@ function NavBar() {
 
     return ( 
         <>
-           <nav className="navbar text-center mt-5">
-                <div className="containercito">
-                    <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Inicio</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#RedesSociales">Contacto</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Productos</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#AcercaDeNosotros">Acerca De Nosotros</a>
-                        </li>
-                    </ul>
+            <nav id="menu">
+                <div class="menu-item">
+                    <div class="menu-text">
+                        <a href="#">Inicio</a>
+                    </div>
+                </div>
+                <div class="menu-item highlight">
+                    <div class="menu-text">
+                        <a href="#RedesSociales">Contacto</a>
+                    </div>
+                </div>
+                <div class="menu-item highlight">
+                    <div class="menu-text">
+                        <a href="#">Productos</a>
+                    </div>
                 </div>
             </nav>
         </>
