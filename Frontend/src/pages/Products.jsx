@@ -4,6 +4,7 @@ import NavBar from "../components/NavBar";
 import ImgBolso from "../assets/imgProducts/bolso3.avif";
 import ImgBolso1 from "../assets/imgProducts/bolso1.avif";
 import ImgBolso2 from "../assets/imgProducts/bolso2.avif";
+import FormPay from '../components/FormPay';
 import "../assets/style/Products.css";
 
 function Products() {
@@ -71,6 +72,9 @@ function Products() {
     return ( 
         <>
             <NavBar isProductsPage={true}/>
+            <div className='mt-5'>
+            <FormPay/>
+            </div>
             <div className="d-flex justify-content-center text-center">
                 <div className="product-grid text-center mt-5 mb-5">
                     {products.map((product, index) => (
