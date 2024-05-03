@@ -1,23 +1,35 @@
+import { useNavigate } from 'react-router-dom';
 import '../assets/style/NavBar.css'
 
-function NavBar() {
+function NavBar({ isProductsPage }) {
+
+    const navigate = useNavigate();
+    const handleContactClick = () => {
+        if (isProductsPage) {
+            navigate('/').then(() => {
+                window.location.hash = 'RedesSociales';
+            });
+        } else {
+            window.location.hash = 'RedesSociales';
+        }
+    };
 
     return ( 
         <>
             <nav id="menu">
-                <div class="menu-item">
-                    <div class="menu-text">
-                        <a href="#">Inicio</a>
+                <div className="menu-item">
+                    <div className="menu-text">
+                        <a onClick={() => navigate('/')}>Inicio</a>
                     </div>
                 </div>
-                <div class="menu-item highlight">
-                    <div class="menu-text">
-                        <a href="#RedesSociales">Contacto</a>
+                <div className="menu-item highlight">
+                    <div className="menu-text">
+                        <a onClick={handleContactClick}>Contacto</a>
                     </div>
                 </div>
-                <div class="menu-item highlight">
-                    <div class="menu-text">
-                        <a href="#">Productos</a>
+                <div className="menu-item highlight">
+                    <div className="menu-text">
+                        <a onClick={() => navigate('/products')}>Productos</a>
                     </div>
                 </div>
             </nav>
