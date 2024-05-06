@@ -1,18 +1,24 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import '../assets/style/NavBar.css'
 
 function NavBar({ isProductsPage }) {
-
     const navigate = useNavigate();
+    const location = useLocation();
+
     const handleContactClick = () => {
         if (isProductsPage) {
-            navigate('/').then(() => {
-                window.location.hash = 'RedesSociales';
-            });
+            navigate('/');
         } else {
             window.location.hash = 'RedesSociales';
         }
     };
+
+    useEffect(() => {
+        if (isProductsPage && location.pathname === '/') {
+            window.location.hash = 'RedesSociales';
+        }
+    }, [location, isProductsPage]);
 
     return ( 
         <>

@@ -16,7 +16,7 @@ function SocialNetwork() {
                     <a href="https://wa.me/+529611226217" target="_blank"><img src={IconWhatsApp} width="250" height="250"/></a>
                 </div>
                 <div className="cards violet">
-                    <a href=""><img src={IconInstagram} width="220" height="220"/></a>
+                    <a href="https://www.instagram.com/mgap_productos/" target="blank"><img src={IconInstagram} width="220" height="220"/></a>
                 </div>
             </div>
         </>
