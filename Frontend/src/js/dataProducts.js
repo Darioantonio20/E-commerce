@@ -184,14 +184,14 @@ import ImgCalzadoS17 from "../assets/imgProducts/calzado/imgCalzadoS17.webp";
 
 export const products = [
     {
-        imgSrc: [ImgbolsoDelantero1, ImgbolsoTrasero1],
+        imgSrc: [ImgbolsoTrasero1, ImgbolsoDelantero1],
         title: "Bolso",
-        price: '$299'
+        price: '$1725'
     },
     {
         imgSrc: [ImgbolsoDelantero2, ImgbolsoTrasero2],
         title: "Bolso",
-        price: '$299'
+        price: '$1400'
     },
     {
         imgSrc: [ImgbolsoDelantero3, ImgbolsoTrasero3],
@@ -221,7 +221,7 @@ export const products = [
     {
         imgSrc: [ImgbolsoDelantero8, ImgbolsoTrasero8],
         title: "Bolso",
-        price: '$299'
+        price: '$1590'
     },
     {
         imgSrc: [ImgbolsoDelantero9, ImgbolsoTrasero9],
@@ -246,7 +246,7 @@ export const products = [
     {
         imgSrc: [ImgbolsoDelantero13, ImgbolsoTrasero13],
         title: "Bolso",
-        price: '$299'
+        price: '$1280'
     },
     {
         imgSrc: [ImgbolsoDelantero14, ImgbolsoTrasero14],
@@ -261,17 +261,17 @@ export const products = [
     {
         imgSrc: [ImgbolsoDelantero16, ImgbolsoTrasero16],
         title: "Bolso",
-        price: '$299'
+        price: '$1280'
     },
     {
         imgSrc: [ImgbolsoDelantero17, ImgbolsoTrasero17],
         title: "Bolso",
-        price: '$299'
+        price: '$1280'
     },
     {
         imgSrc: [ImgbolsoDelantero18, ImgbolsoTrasero18],
         title: "Bolso",
-        price: '$299'
+        price: '$1590'
     },
     {
         imgSrc: [ImgbolsoDelantero19, ImgbolsoTrasero19],
