@@ -25,14 +25,14 @@ function FormPay() {
                     </div>
                     <div className="card__type">HSBC<br/> <div className="card__debit text-center">Debit</div></div>
                     <div className="card__number">
-                        <span className="card__digit-group">4213</span>
-                        <span className="card__digit-group">1661</span>
-                        <span className="card__digit-group">2415</span>
-                        <span className="card__digit-group">3002</span>
+                        <span className="card__digit-group">****</span>
+                        <span className="card__digit-group">****</span>
+                        <span className="card__digit-group">****</span>
+                        <span className="card__digit-group">****</span>
                     </div>
                     <div className="card__valid-thru" aria-label="Valid thru">Valid<br/>thru</div>
                     <div className="card__exp-date"><time dateTime="2038-01">**/**</time></div>
-                    <div className="card__name" aria-label="Dee Stroyer">María Guadalupe<br></br>Álvarez Pérez</div>
+                    <div className="card__name" aria-label="Dee Stroyer">****<br></br>****</div>
                     <div>
                         <span>Visa</span>
                     </div>

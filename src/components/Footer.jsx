@@ -11,8 +11,6 @@ function Footer() {
                         <img className="zoomOnHover" src={ImgLogo} alt="" width="80"/>
                     </a>
                     <ul className="nav col-md-4 justify-content-end">
-                        <li><a href="#" className="px-2 text-muted">Facebook</a></li>
-                        <li><a href="https://www.instagram.com/mgap_productos/" target='blank' className="px-2 text-muted">Instagram</a></li>
                         <li><a href='/' className="px-2 text-muted">Inicio</a></li>
                     </ul>
                 </footer>

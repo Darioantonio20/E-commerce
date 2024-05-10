@@ -22,9 +22,7 @@ function LandingPage() {
             <SectionPay/>
             <SocialNetwork/>
             <Card/>
-                <button onClick={scrollToTop} style={scrollToTopButtonStyle}>Arriba
-
-                </button>
+                <button onClick={scrollToTop} style={scrollToTopButtonStyle}>&#8679;</button>
             <Footer/>
         </>
      );

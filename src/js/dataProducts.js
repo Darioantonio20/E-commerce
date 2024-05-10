@@ -196,27 +196,27 @@ export const products = [
     {
         imgSrc: [ImgbolsoDelantero3, ImgbolsoTrasero3],
         title: "Bolso",
-        price: '$299'
+        price: '$1590'
     },
     {
         imgSrc: [ImgbolsoDelantero4, ImgbolsoTrasero4],
         title: "Bolso",
-        price: '$299'
+        price: '$1280'
     },
     {
         imgSrc: [ImgbolsoDelantero5, ImgbolsoTrasero5],
         title: "Bolso",
-        price: '$299'
+        price: '$1725'
     },
     {
         imgSrc: [ImgbolsoDelantero6, ImgbolsoTrasero6],
         title: "Bolso",
-        price: '$299'
+        price: '$1280'
     },
     {
         imgSrc: [ImgbolsoDelantero7, ImgbolsoTrasero7],
         title: "Bolso",
-        price: '$299'
+        price: '$1280'
     },
     {
         imgSrc: [ImgbolsoDelantero8, ImgbolsoTrasero8],
@@ -226,22 +226,22 @@ export const products = [
     {
         imgSrc: [ImgbolsoDelantero9, ImgbolsoTrasero9],
         title: "Bolso",
-        price: '$299'
+        price: '$1380'
     },
     {
         imgSrc: [ImgbolsoDelantero10, ImgbolsoTrasero10],
         title: "Bolso",
-        price: '$299'
+        price: '$1150'
     },
     {
         imgSrc: [ImgbolsoDelantero11, ImgbolsoTrasero11],
         title: "Bolso",
-        price: '$299'
+        price: '$1150'
     },
     {
         imgSrc: [ImgbolsoDelantero12, ImgbolsoTrasero12],
         title: "Bolso",
-        price: '$299'
+        price: '$1590'
     },
     {
         imgSrc: [ImgbolsoDelantero13, ImgbolsoTrasero13],
@@ -251,12 +251,12 @@ export const products = [
     {
         imgSrc: [ImgbolsoDelantero14, ImgbolsoTrasero14],
         title: "Bolso",
-        price: '$299'
+        price: '$1280'
     },
     {
         imgSrc: [ImgbolsoDelantero15, ImgbolsoTrasero15],
         title: "Bolso",
-        price: '$299'
+        price: '$1590'
     },
     {
         imgSrc: [ImgbolsoDelantero16, ImgbolsoTrasero16],
@@ -275,178 +275,178 @@ export const products = [
     },
     {
         imgSrc: [ImgbolsoDelantero19, ImgbolsoTrasero19],
-        title: "Bolso",
-        price: '$299'
+        title: "Cartera De Dama",
+        price: '$1170'
     },
     {
         imgSrc: [ImgbolsoDelantero20, ImgbolsoTrasero20],
-        title: "Bolso",
-        price: '$299'
+        title: "Cartera De Dama",
+        price: '$1170'
     },
     {
         imgSrc: [ImgbolsoDelantero21, ImgbolsoTrasero21],
-        title: "Bolso",
-        price: '$299'
+        title: "Cartera De Dama",
+        price: '$1170'
     },
     {
         imgSrc: [ImgbolsoDelantero22, ImgbolsoTrasero22],
-        title: "Bolso",
-        price: '$299'
+        title: "Cartera De Dama",
+        price: '$1170'
     },
     {
         imgSrc: [ImgbolsoDelantero23, ImgbolsoTrasero23],
         title: "Bolso",
-        price: '$299'
+        price: '$1100'
     },
     {
         imgSrc: [ImgbolsoDelantero24, ImgbolsoTrasero24],
-        title: "Bolso",
-        price: '$299'
+        title: "Cartera De Dama",
+        price: '$1170'
     },
     {
         imgSrc: [ImgbolsoDelantero25, ImgbolsoEnmedio25, ImgbolsoTrasero25],
-        title: "Bolso",
-        price: '$299'
+        title: "Cartera De Dama",
+        price: '$1170'
     },
     {
         imgSrc: [ImgbolsoDelantero26, ImgbolsoTrasero26],
-        title: "Bolso",
-        price: '$299'
+        title: "Cartera De Dama",
+        price: '$1170'
     },
     {
         imgSrc: [ImgbolsoDelantero27, ImgbolsoTrasero27],
-        title: "Bolso",
-        price: '$299'
+        title: "Cartera Caballero",
+        price: '$1100'
     },
     {
         imgSrc: [ImgbolsoDelantero28, ImgbolsoTrasero28],
-        title: "Bolso",
-        price: '$299'
+        title: "Cartera Dama",
+        price: '$1170'
     },
     {
         imgSrc: [ImgPerfumeD1, ImgPerfumeT1],
         title: "Perfume",
-        price: '$299'
+        price: '$2900'
     },
     {
         imgSrc: [ImgPerfumeD2, ImgPerfumeT2],
         title: "Perfume",
-        price: '$299'
+        price: '$1260'
     },
     {
         imgSrc: [ImgPerfumeD3, ImgPerfumeT3],
         title: "Perfume",
-        price: '$299'
+        price: '$2100'
     },
     {
         imgSrc: [ImgPerfumeD4, ImgPerfumeT4],
         title: "Perfume",
-        price: '$299'
+        price: '$990'
     },
     {
         imgSrc: [ImgPerfumeD5, ImgPerfumeT5],
         title: "Perfume",
-        price: '$299'
+        price: '$1590'
     },
     {
         imgSrc: [ImgPerfumeD6, ImgPerfumeT6],
         title: "Perfume",
-        price: '$299'
+        price: '$2200'
     },
     {
         imgSrc: [ImgPerfumeD7, ImgPerfumeT7],
         title: "Perfume",
-        price: '$299'
+        price: '$1590'
     },
     {
         imgSrc: [ImgPerfumeD8, ImgPerfumeT8],
         title: "Perfume",
-        price: '$299'
+        price: '$2300'
     },
     {
         imgSrc: [ImgPerfumeD9, ImgPerfumeT9],
         title: "Perfume",
-        price: '$299'
+        price: '$1200'
     },
     {
         imgSrc: [ImgPerfumeD10],
         title: "Perfume",
-        price: '$299'
+        price: '$1100'
     },
     {
         imgSrc: [ImgPerfumeD11],
         title: "Perfume",
-        price: '$299'
+        price: '$2900'
     },
     {
         imgSrc: [ImgPerfumeD12],
         title: "Perfume",
-        price: '$299'
+        price: '$2490'
     },
     {
         imgSrc: [ImgPerfumeD13, ImgPerfumeT13],
         title: "Perfume",
-        price: '$299'
+        price: '$1300'
     },
     {
         imgSrc: [ImgCrema1],
         title: "Crema",
-        price: '$299'
+        price: '$900'
     },
     {
         imgSrc: [ImgCrema2],
         title: "Crema",
-        price: '$299'
+        price: '$900'
     },
     {
         imgSrc: [ImgCrema3],
         title: "Crema",
-        price: '$299'
+        price: '$900'
     },
     {
         imgSrc: [ImgCrema4],
         title: "Crema",
-        price: '$299'
+        price: '$900'
     },
     {
         imgSrc: [ImgCrema5],
         title: "Crema",
-        price: '$299'
+        price: '$900'
     },
     {
         imgSrc: [ImgCrema6],
-        title: "Crema",
-        price: '$299'
+        title: "Feromonas",
+        price: '$400'
     },
     {
         imgSrc: [ImgFragancia1, ImgFraganciat1],
         title: "Fragancia",
-        price: '$299'
+        price: '$1100'
     },
     {
         imgSrc: [ImgFragancia2, ImgFraganciat2],
         title: "Fragancia",
-        price: '$299'
+        price: '$1100'
     },
     {
         imgSrc: [ImgFragancia3, ImgFraganciat3],
         title: "Fragancia",
-        price: '$299'
+        price: '$1100'
     },
     {
         imgSrc: [ImgFragancia4, ImgFraganciat4],
         title: "Fragancia",
-        price: '$299'
+        price: '$1100'
     },
     {
         imgSrc: [ImgFragancia5],
         title: "Fragancia",
-        price: '$299'
+        price: '$1100'
     },
     {
         imgSrc: [ImgFragancia6, ImgFraganciat6],
         title: "Fragancia",
-        price: '$299'
+        price: '$1100'
     },
     {
         imgSrc: [ImgCalzadoF1, ImgCalzadoD1, ImgCalzadoT1, ImgCalzadoI1],

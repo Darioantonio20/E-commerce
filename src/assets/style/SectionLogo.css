@@ -10,6 +10,7 @@
 @media (max-width: 600px) {
     .parallax {
         background-position: top;
+        background: #fff;
     }
 }
 .logo {
