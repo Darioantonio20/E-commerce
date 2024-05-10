@@ -31,7 +31,7 @@ function FormPay() {
                         <span className="card__digit-group">3002</span>
                     </div>
                     <div className="card__valid-thru" aria-label="Valid thru">Valid<br/>thru</div>
-                    <div className="card__exp-date"><time dateTime="2038-01">04/25</time></div>
+                    <div className="card__exp-date"><time dateTime="2038-01">**/**</time></div>
                     <div className="card__name" aria-label="Dee Stroyer">María Guadalupe<br></br>Álvarez Pérez</div>
                     <div>
                         <span>Visa</span>
