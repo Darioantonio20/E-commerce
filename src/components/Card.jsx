@@ -17,7 +17,7 @@ function Card() {
                         <img src={ImgMariaGuadalupe} type="image/avif"/>
                     </div>
                     <div className="details">
-                        <h2>Señora Guadalupe<br></br><span></span></h2>
+                        <h2>Señora Guadalupe<br></br><span>-</span></h2>
                         <a href="https://wa.me/+529611226217" target="_blank">
                             <img className="zoomOnHover" src={IconWhatsApp} width="130" height="130" type="image/avif"/>
                         </a>
